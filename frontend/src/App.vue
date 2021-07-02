@@ -6,6 +6,7 @@
     <router-link to="/user">User</router-link> |
     <router-link to="/login">Login</router-link> |
     <router-link to="/protected">Protected</router-link>
+    <router-link to="/locations">Locations</router-link>
   </div>
   <router-view/>
 </template>
