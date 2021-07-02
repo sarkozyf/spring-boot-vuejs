@@ -6,8 +6,25 @@
 </template>
 
 <script lang="ts">
+import { defineComponent } from 'vue';
+interface State {
+  locations: {
+    count: number;
+  };
+}
+export default defineComponent({
+  name: 'Locations',
+  data: (): State => {
+    return {
+      locations: {
+        count: 0
+      }
+    }
+  },
+  methods: {
 
-
+  }
+});
 </script>
 
 
